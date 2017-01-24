@@ -37,6 +37,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     InitializeMagick("");
+    //for example code https://www.imagemagick.org/Magick++/Image++.html
     return 0;
 }
 
