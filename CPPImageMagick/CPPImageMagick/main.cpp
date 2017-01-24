@@ -36,8 +36,12 @@ using namespace Magick;
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
-    InitializeMagick("");
     //for example code https://www.imagemagick.org/Magick++/Image++.html
+    InitializeMagick(*argv);
+    
+    system("cd /Users/jhovarie/Desktop/CPPImageMagick/ && /usr/local/Cellar/imagemagick/7.0.4-5/bin/convert -density 300 -units PixelsPerInch image_input.jpg -resample 300 image_output.jpg");
+    
+    //system("cd /Users/jhovarie/Desktop/CPPImageMagick/ && /usr/local/Cellar/imagemagick/7.0.4-5/bin/convert palasyo.jpeg -density 300 newimage.jpeg");
     return 0;
 }
 
