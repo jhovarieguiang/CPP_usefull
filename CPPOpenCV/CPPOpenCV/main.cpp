@@ -7,7 +7,8 @@
 //
 
 /*
- - OpenCV setup Mac -
+ - OpenCV setup Mac and CPP-
+ 
  
  https://www.youtube.com/watch?v=37RvqZVddAw
  
